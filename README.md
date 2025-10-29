@@ -2,6 +2,17 @@
 This extension allows you to quickly select prewritten terms from a file, compile them into a numbered list, and copy the formatted comments with a prefix "Editor comments:" for easy pasting into your document.
 
 ---
+# **Instructions**
+
+1. **Download and unzip** the `editor-comments-public` file.  
+2. **Open Chrome** and go to `chrome://extensions/`.  
+3. **Turn on Developer mode** (top-right corner).  
+4. Click **Load unpacked**.  
+5. Select the unzipped folder.  
+   - The extension will appear in your extensions list.  
+6. **Pin it to your toolbar.**  
+   - Click the pin icon to keep it visible.  
+7. **Right-click the icon** and select **Open Side Panel**.  
 
 ## How to Use
 
