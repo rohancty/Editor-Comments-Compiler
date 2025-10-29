@@ -4,7 +4,7 @@ This extension allows you to quickly select prewritten terms from a file, compil
 ---
 # **Instructions**
 
-1. **Download and unzip** the `editor-comments-public` file.  
+1. **Download and unzip** the `Editor-comments-public` file.  
 2. **Open Chrome** and go to `chrome://extensions/`.  
 3. **Turn on Developer mode** (top-right corner).  
 4. Click **Load unpacked**.  
