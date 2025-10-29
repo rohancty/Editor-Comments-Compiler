@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Editor Comments Sidebar",
+  "version": "1.1",
+  "description": "Select prewritten terms from a file and copy formatted comments.",
+  "permissions": [
+    "sidePanel",
+    "clipboardWrite"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["texts.txt"],
+    "matches": ["<all_urls>"]
+  }],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Editor Comments Sidebar"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,154 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 16px;
+  width: 350px;
+  color: #333;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dropdown-container {
+  width: 100%;
+  display: inline-block;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+#selectedList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#selectedList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: #f7f7f7;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#selectedList li button {
+  background: none;
+  border: none;
+  color: #c00;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.output-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#copiedContent {
+  width: 100%;
+  height: 80px;
+  padding: 8px;
+  font-family: monospace;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  background-color: #fff;
+  margin-top: 4px;
+}
+
+.primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.primary:hover {
+  background-color: #218838;
+}
+
+/* Add this to your existing styles.css */
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: normal; /* allow wrapping */
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button.danger {
+  background-color: #dc3545; /* Bootstrap danger red */
+}
+
+button.danger:hover {
+  background-color: #c82333;
+}
+
+/* Existing styles... */
+
+.button-group {
+  display: flex;
+  gap: 15px; /* or any space you prefer */
+  margin-top: 10px; /* optional */
+}
