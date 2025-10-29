@@ -1,5 +1,5 @@
 # Editor Comments Compiler
-This extension allows you to quickly select prewritten terms from a file, compile them into a numbered list, and copy the formatted comments with a prefix "Editor comments:" for easy pasting into your document.
+This extension allows you to quickly select prewritten terms from a file, compile them into a numbered list, and copy the formatted comments with a prefix "Editor comments:" for easy pasting into your decision letter.
 
 ---
 # **Instructions**
