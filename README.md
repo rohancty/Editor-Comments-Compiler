@@ -31,23 +31,30 @@ This extension allows you to quickly select prewritten terms from a file, compil
 
 ### 4. Copy the Comments
 - Click the **"Copy as Numbered List"** button.
-- The formatted list with the prefix:
-  Editor comments:
-  Term 1
+- The formatted list with the prefix "Editor comments" will look like this:
 
-  Term 2 ...
-  
+            Editor comments:
+            1. Term 1
+
+            2. Term 2
+
+            3. Term 3
+
+            4. Term 4
+              ... (additional terms)
+
+    
 - The formatted numbered list will be copied to your clipboard.
 - The same formatted list appears in the preview textarea for review.
 
 ### 5. Paste into Your Document
-- Paste the content directly into your manuscript or document.
+- Paste the content directly into the EM or letter.
 
 ---
 
 ## PLEASE NOTE
 - The terms are sourced from `texts.txt`. Update that file to change the list. Reload the extension after each change to the text file.
-- Designed for simplicity, speed, and efficiency in manuscript editing.
+- Designed for simplicity, speed, and efficiency in conveying editorial decisions.
 
 ---
 
